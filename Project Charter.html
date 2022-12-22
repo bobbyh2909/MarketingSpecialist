@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Charter</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="laptop-pjc.css" rel="stylesheet" />
+    <link href="tablet-pjc.css" rel="stylesheet" />
+    <link href="mobile-pjc.css" rel="stylesheet" />
+    <style>
+      /* Some common breakpoints for widths of devices:
+
+      320px — 480px: Mobile devices
+      481px — 768px: iPads, Tablets
+      769px — 1024px: Small screens, laptops
+      1025px — 1200px: Desktops, large screens
+      1201px and more —  Extra large screens, TV */
+    </style>
+  </head>
+  <body>
+    <div id="pjc-container">
+      <div id="goals">
+        <h3>Goals</h3>
+        <div id="goals-grid">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 256 256"
+            id="goals-icons"
+            height="200"
+            width="200"
+          >
+            <rect width="256" height="256" fill="none"></rect>
+            <g opacity="0.2">
+              <path
+                d="M40,106.1c21.4-16,41-16,60-10.6V37.4C81,32,61.4,32,40,48Z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+            <g opacity="0.2">
+              <path
+                d="M156,58.6C175,64,194.6,64,216,48v58.1c-21.4,16.1-41,16-60,10.7Z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+            <g opacity="0.2">
+              <path
+                d="M156,116.8c-18.9-5.4-37.1-15.9-56-21.3v61.9c18.9,5.3,37.1,15.9,56,21.2Z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+            <line
+              x1="40"
+              y1="216"
+              x2="40"
+              y2="48"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></line>
+            <path
+              d="M40,168c64-48,112,48,176,0V48C152,96,104,0,40,48"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+              id="mainIconPathAttribute"
+            ></path>
+            <path
+              d="M216,106.1c-64,48-112-48-176,0"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+              id="mainIconPathAttribute"
+            ></path>
+            <line
+              x1="100"
+              y1="37.4"
+              x2="100"
+              y2="157.4"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></line>
+            <line
+              x1="156"
+              y1="58.6"
+              x2="156"
+              y2="178.6"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></line>
+          </svg>
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Goal 1</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam doloremque accusamus debitis ratione?
+            </p></a
+          >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 256 256"
+            id="goals-icons"
+            height="200"
+            width="200"
+          >
+            <rect width="256" height="256" fill="none"></rect>
+            <g opacity="0.2">
+              <path
+                d="M40,106.1c21.4-16,41-16,60-10.6V37.4C81,32,61.4,32,40,48Z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+            <g opacity="0.2">
+              <path
+                d="M156,58.6C175,64,194.6,64,216,48v58.1c-21.4,16.1-41,16-60,10.7Z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+            <g opacity="0.2">
+              <path
+                d="M156,116.8c-18.9-5.4-37.1-15.9-56-21.3v61.9c18.9,5.3,37.1,15.9,56,21.2Z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+            <line
+              x1="40"
+              y1="216"
+              x2="40"
+              y2="48"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></line>
+            <path
+              d="M40,168c64-48,112,48,176,0V48C152,96,104,0,40,48"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+              id="mainIconPathAttribute"
+            ></path>
+            <path
+              d="M216,106.1c-64,48-112-48-176,0"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+              id="mainIconPathAttribute"
+            ></path>
+            <line
+              x1="100"
+              y1="37.4"
+              x2="100"
+              y2="157.4"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></line>
+            <line
+              x1="156"
+              y1="58.6"
+              x2="156"
+              y2="178.6"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></line>
+          </svg>
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Goal 2</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam doloremque accusamus debitis ratione?
+            </p></a
+          >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 256 256"
+            id="goals-icons"
+            height="200"
+            width="200"
+          >
+            <rect width="256" height="256" fill="none"></rect>
+            <g opacity="0.2">
+              <path
+                d="M40,106.1c21.4-16,41-16,60-10.6V37.4C81,32,61.4,32,40,48Z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+            <g opacity="0.2">
+              <path
+                d="M156,58.6C175,64,194.6,64,216,48v58.1c-21.4,16.1-41,16-60,10.7Z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+            <g opacity="0.2">
+              <path
+                d="M156,116.8c-18.9-5.4-37.1-15.9-56-21.3v61.9c18.9,5.3,37.1,15.9,56,21.2Z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+            <line
+              x1="40"
+              y1="216"
+              x2="40"
+              y2="48"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></line>
+            <path
+              d="M40,168c64-48,112,48,176,0V48C152,96,104,0,40,48"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+              id="mainIconPathAttribute"
+            ></path>
+            <path
+              d="M216,106.1c-64,48-112-48-176,0"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+              id="mainIconPathAttribute"
+            ></path>
+            <line
+              x1="100"
+              y1="37.4"
+              x2="100"
+              y2="157.4"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></line>
+            <line
+              x1="156"
+              y1="58.6"
+              x2="156"
+              y2="178.6"
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></line>
+          </svg>
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Goal 3</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam doloremque accusamus debitis ratione?
+            </p></a
+          >
+        </div>
+      </div>
+      <div id="team">
+        <h3>Team</h3>
+        <div id="team-grid">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            id="team-icons"
+            height="200"
+            width="200"
+          >
+            <g>
+              <path
+                fill="none"
+                d="M0 0h24v24H0z"
+                id="mainIconPathAttribute"
+              ></path>
+              <path
+                d="M20 22H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2zm-8-9a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+          </svg>
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Member 01</h4>
+            <p>Name: ...</p></a
+          >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            id="team-icons"
+            height="200"
+            width="200"
+          >
+            <g>
+              <path
+                fill="none"
+                d="M0 0h24v24H0z"
+                id="mainIconPathAttribute"
+              ></path>
+              <path
+                d="M20 22H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2zm-8-9a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+          </svg>
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Member 02</h4>
+            <p>Name: ...</p></a
+          >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            id="team-icons"
+            height="200"
+            width="200"
+          >
+            <g>
+              <path
+                fill="none"
+                d="M0 0h24v24H0z"
+                id="mainIconPathAttribute"
+              ></path>
+              <path
+                d="M20 22H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2zm-8-9a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+          </svg>
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Member 03</h4>
+            <p>Name: ...</p></a
+          >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            id="team-icons"
+            height="200"
+            width="200"
+          >
+            <g>
+              <path
+                fill="none"
+                d="M0 0h24v24H0z"
+                id="mainIconPathAttribute"
+              ></path>
+              <path
+                d="M20 22H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2zm-8-9a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"
+                id="mainIconPathAttribute"
+              ></path>
+            </g>
+          </svg>
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Member 04</h4>
+            <p>Name: ...</p></a
+          >
+        </div>
+      </div>
+      <div id="timeline">
+        <h3>Timeline</h3>
+        <div id="timeline-grid">
+          <h3 id="order-in-circle">01</h3>
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Project Start</h4>
+            <p>Lorem ipsum dolor sit amet.</p></a
+          >
+          <h3 id="order-in-circle">02</h3>
+
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Project Date</h4>
+            <p>Lorem ipsum dolor sit amet.</p></a
+          >
+          <h3 id="order-in-circle">03</h3>
+
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Project Date</h4>
+            <p>Lorem ipsum dolor sit amet.</p></a
+          >
+          <h3 id="order-in-circle">04</h3>
+
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Project Date</h4>
+            <p>Lorem ipsum dolor sit amet.</p></a
+          >
+          <h3 id="order-in-circle">05</h3>
+
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Project Date</h4>
+            <p>Lorem ipsum dolor sit amet.</p></a
+          >
+          <h3 id="order-in-circle">06</h3>
+
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Project Date</h4>
+            <p>Lorem ipsum dolor sit amet.</p></a
+          >
+          <h3 id="order-in-circle">07</h3>
+
+          <a href="index.html" target="_blank" id="link"
+            ><h4>Project Date</h4>
+            <p>Lorem ipsum dolor sit amet.</p></a
+          >
+        </div>
+      </div>
+      <div id="scopes">
+        <h3>Scopes</h3>
+        <div id="scopes-grid">
+          <a href="index.html" target="_blank" id="link"
+            ><h4 id="scopes-flex">IN</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              culpa.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              culpa.
+            </p></a
+          >
+          <a href="index.html" target="_blank" id="link"
+            ><h4 id="scopes-flex">OUT</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              culpa.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              culpa.
+            </p></a
+          >
+        </div>
+      </div>
+      <div id="primary">
+        <h3>Primary</h3>
+        <div id="primary-grid">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="200"
+            height="200"
+            fill="currentColor"
+            class="bi bi-patch-question-fill"
+            viewBox="0 0 16 16"
+            id="primary-icons"
+          >
+            <path
+              d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636zM7.002 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0zm1.602-2.027c.04-.534.198-.815.846-1.26.674-.475 1.05-1.09 1.05-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745.336 0 .504-.24.554-.627z"
+              id="mainIconPathAttribute"
+            ></path>
+          </svg>
+          <a href="index.html" target="_blank" id="link"
+            ><p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
+              unde eius nobis.
+            </p></a
+          >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="200"
+            height="200"
+            fill="currentColor"
+            class="bi bi-patch-question-fill"
+            viewBox="0 0 16 16"
+            id="primary-icons"
+          >
+            <path
+              d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636zM7.002 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0zm1.602-2.027c.04-.534.198-.815.846-1.26.674-.475 1.05-1.09 1.05-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745.336 0 .504-.24.554-.627z"
+              id="mainIconPathAttribute"
+            ></path>
+          </svg>
+          <a href="index.html" target="_blank" id="link"
+            ><p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
+              unde eius nobis.
+            </p></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
